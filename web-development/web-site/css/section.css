@@ -1,0 +1,116 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 0px 20px;
+}
+
+.products-header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.products-title {
+    font-size: 22px;
+    color: #1A00FFCC;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.father-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 244px;
+    height: 290px;
+    background-color: #D9D9D9;
+    border-radius: 8px;
+    padding: 9px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.card-chart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-title-money {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+
+.card-money {
+    font-size: 16px;
+    color: #1A00FF;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.chart-icon {
+    display: flex;
+    align-items: end;
+    cursor: pointer;
+}
+.chart-icon-img{
+    width: 30px;
+}
+
+@media (max-width: 570px){
+    .products-title{
+        font-size: 16px;
+    }
+    .father-cards{
+        justify-content: center;
+        gap: 10px;
+    }
+    .card{
+        width: 200px;
+        height: 250px;
+    }
+    .card-title{
+        font-size: 16px;
+    }
+    .chart-icon-img{
+        width: 25px;
+    }
+}
+
+@media (max-width: 450px){
+    .father-cards{
+        justify-content: center;
+        gap: 15px;
+    }
+    .card{
+        width: 150px;
+        height: 250px;
+    }
+    .card-money{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 350px){
+    .father-cards{
+        justify-content: center;
+        gap: 15px;
+    }
+    .card{
+        width: 120px;
+        height: 250px;
+    }
+}
