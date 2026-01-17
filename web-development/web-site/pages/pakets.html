@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech house | Home</title>
+    <title>Tech house | Paketlar</title>
     <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/section.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/pakets.css">
 </head>
 
 <body>
@@ -54,47 +55,77 @@
                 </div>
             </nav>
             <!-- section -->
+            <div class="section packages-section">
 
-            <div class="section">
-                <!-- categories -->
-                <div class="categories-section">
-                    <div class="categories-wrapper">
+                <h2 class="packages-title">Taklif qilinadigan a'zolik paketlari</h2>
+                <p class="packages-subtitle">
+                    Tech House doimiy mijozlari uchun maxsus imtiyozlar va qulayliklar
+                </p>
 
-                        <a href="#" class="category-card" data-category="kitchen">
-                            <img src="../images/kitchen/blender.png" alt="Oshxona jihozlari">
-                            <span>Oshxona jihozlari</span>
-                        </a>
+                <div class="packages-cards">
 
-                        <a href="#" class="category-card" data-category="cleaner">
-                            <img src="../images/cleaner/plisos.png" alt="Tozalash texnikasi">
-                            <span>Tozalash texnikasi</span>
-                        </a>
-
-                        <a href="#" class="category-card" data-category="heater">
-                            <img src="../images/heater/elektr-heater.png" alt="Isitish va sovutish">
-                            <span>Isitish & Sovutish</span>
-                        </a>
-
-                        <a href="#" class="category-card" data-category="maintenance">
-                            <img src="../images/maintenance/fen.png" alt="Shaxsiy parvarish">
-                            <span>Shaxsiy parvarish</span>
-                        </a>
-
-                        <a href="#" class="category-card" data-category="smart-devices">
-                            <img src="../images/smart-devices/camera.png" alt="Aqlli uy">
-                            <span>Aqlli uy</span>
-                        </a>
-
-
+                    <!-- BRONZA -->
+                    <div class="package-card bronze">
+                        <span class="package-badge">Boshlang'ich</span>
+                        <h3>Bronza A'zolik</h3>
+                        <p class="package-desc">
+                            Yangi mijozlar va kam xarid qiluvchilar uchun mos paket
+                        </p>
+                        <ul>
+                            <li>Asosiy sodiqlik ballari</li>
+                            <li>Tanlangan chegirmalarga kirish</li>
+                        </ul>
+                        <button class="package-btn">Tanlash</button>
                     </div>
+
+                    <!-- KUMUSH -->
+                    <div class="package-card silver recommended">
+                        <span class="package-badge">Eng mashhur</span>
+                        <h3>Kumush A'zolik</h3>
+                        <p class="package-desc">
+                            Doimiy xarid qiluvchi mijozlar uchun optimal tanlov
+                        </p>
+                        <ul>
+                            <li>Ko'proq sodiqlik ballari</li>
+                            <li>Ustuvor mijozlarni qo'llab-quvvatlash</li>
+                            <li>Oylik maxsus takliflar</li>
+                        </ul>
+                        <button class="package-btn primary">Tanlash</button>
+                    </div>
+
+                    <!-- OLTIN -->
+                    <div class="package-card gold">
+                        <span class="package-badge">Premium</span>
+                        <h3>Oltin A'zolik</h3>
+                        <p class="package-desc">
+                            Eng yuqori qulaylik va maksimal foyda istaganlar uchun
+                        </p>
+                        <ul>
+                            <li>Eng yuqori sodiqlik mukofotlari</li>
+                            <li>Bepul yetkazib berish</li>
+                            <li>Yangi mahsulotlarga erta kirish</li>
+                        </ul>
+                        <button class="package-btn">Tanlash</button>
+                    </div>
+
+                    <!-- BUSINESS -->
+                    <div class="package-card business">
+                        <span class="package-badge">B2B</span>
+                        <h3>Biznes / Ulgurji Paket</h3>
+                        <p class="package-desc">
+                            Do'konlar va korxonalar uchun maxsus shartlar
+                        </p>
+                        <ul>
+                            <li>Katta hajmda xarid qilish</li>
+                            <li>Individual narxlar va shartnomalar</li>
+                        </ul>
+                        <button class="package-btn outline">Bog'lanish</button>
+                    </div>
+
                 </div>
-                <button id="showAll">Barchasi</button>
-
-
-                <!-- products -->
-
-                <div id="products"></div>
             </div>
+
+
         </header>
         <!-- footer -->
         <footer class="footer">

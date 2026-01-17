@@ -4,15 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product | Details</title>
+    <title>Document</title>
     <link rel="stylesheet" href="../css/detail.css">
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/category.css">
 </head>
 
 <body>
     <header class="container">
+        <!-- navbar -->
         <nav class="navbar">
             <div class="navbar-head">
                 <div>
@@ -52,43 +54,48 @@
             </div>
         </nav>
         <!-- section -->
-        <div class="detail-container">
+        <div class="section">
 
-            <!-- LEFT -->
-            <!-- LEFT -->
-            <div class="detail-left">
-                <h1 class="product-title" id="detailTitle"></h1>
+            <div class="categories-section">
+                <div class="categories-wrapper">
 
-                <div class="product-image">
-                    <img id="detailImage" src="" alt="">
+                    <a href="#" class="category-card" data-category="kitchen">
+                        <img src="../images/kitchen/blender.png" alt="Oshxona jihozlari">
+                        <span>Oshxona jihozlari</span>
+                    </a>
+
+                    <a href="#" class="category-card" data-category="cleaner">
+                        <img src="../images/cleaner/plisos.png" alt="Tozalash texnikasi">
+                        <span>Tozalash texnikasi</span>
+                    </a>
+
+                    <a href="#" class="category-card" data-category="heater">
+                        <img src="../images/heater/elektr-heater.png" alt="Isitish va sovutish">
+                        <span>Isitish & Sovutish</span>
+                    </a>
+
+                    <a href="#" class="category-card" data-category="maintenance">
+                        <img src="../images/maintenance/fen.png" alt="Shaxsiy parvarish">
+                        <span>Shaxsiy parvarish</span>
+                    </a>
+
+                    <a href="#" class="category-card" data-category="smart-devices">
+                        <img src="../images/smart-devices/camera.png" alt="Aqlli uy">
+                        <span>Aqlli uy</span>
+                    </a>
+
+
                 </div>
+
+
             </div>
-
-            <!-- CENTER -->
-            <div class="detail-center">
-                <h2 class="section-title">Mahsulot haqida</h2>
-
-                <div class="product-info">
-                    <div class="info-row">
-                        <span class="label">Nomi:</span>
-                        <span class="value" id="detailName"></span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- RIGHT -->
-            <div class="detail-right">
-                <h3 class="price-title">Mahsulot narxi</h3>
-                <p class="price" id="detailPrice"></p>
-
-                <button class="buy-btn">Sotib olish</button>
-                <button class="cart-btn" id="addToCartBtn">Savatga qo'shish</button>
-            </div>
-
-
+            <div id="products"></div>
         </div>
 
+
+
     </header>
+
     <!-- footer -->
     <footer class="footer">
         <div class="footer-logo">
@@ -115,8 +122,7 @@
             </div>
         </div>
     </footer>
-
 </body>
-<script src="../javascript/main.js"></script>
+<script src="../javascript/category.js"></script>
 
 </html>

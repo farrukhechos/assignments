@@ -1,0 +1,158 @@
+[
+  
+  {
+      "id": "kitchen",
+      "title": "Oshxona jihozlari",
+      "products": [
+        {
+          "id": 1,
+          "name": "Mini Elektr mikser",
+          "price": 190000,
+          "image": "../images/kitchen/mikser.png"
+        },
+        {
+          "id": 2,
+          "name": "Elektr pech",
+          "price": 1200000,
+          "image": "../images/kitchen/pech.png"
+        },
+        {
+          "id": 3,
+          "name": "Blender",
+          "price": 400000,
+          "image": "../images/kitchen/blender.png"
+        },
+        {
+          "id": 4,
+          "name": "Duxovka",
+          "price": 2800000,
+          "image": "../images/kitchen/duxofka.png"
+        }
+      ]
+    },
+
+    {
+      "id": "cleaner",
+      "title": "Tozalash texnikasi",
+      "products": [
+        {
+          "id": 1,
+          "name": "Robot changyutgich",
+          "price": 6899000,
+          "image": "../images/cleaner/robot-changyutgich.png"
+        },
+        {
+          "id": 2,
+          "name": "BQ180 Changyutgich",
+          "price": 1634000,
+          "image": "../images/cleaner/plisos.png"
+        },
+        {
+          "id": 3,
+          "name": "Bug'li tozalagich",
+          "price": 2900000,
+          "image": "../images/cleaner/bugli-tozalagich.png"
+        },
+        {
+          "id": 4,
+          "name": "Changyutgich",
+          "price": 1140000,
+          "image": "../images/cleaner/plisos2.png"
+        }
+      ]
+    },
+
+    {
+      "id": "heater",
+      "title": "Isitish va sovutish qurilmalari",
+      "products": [
+        {
+          "id": 1,
+          "name": "Shivaki Isitgich",
+          "price": 1399000,
+          "image": "../images/heater/smart-heater.png"
+        },
+        {
+          "id": 2,
+          "name": "Ventilyator",
+          "price": 604000,
+          "image": "../images/heater/cold-ventilator.png"
+        },
+        {
+          "id": 3,
+          "name": "Konditsioner",
+          "price": 9900000,
+          "image": "../images/heater/air-condition.png"
+        },
+        {
+          "id": 4,
+          "name": "Elektr isitkich",
+          "price": 140000,
+          "image": "../images/heater/elektr-heater.png"
+        }
+      ]
+    },
+
+    {
+      "id": "maintenance",
+      "title": "Shaxsiy parvarish moslamalari",
+      "products": [
+        {
+          "id": 1,
+          "name": "Fen",
+          "price": 399000,
+          "image": "../images/maintenance/fen.png"
+        },
+        {
+          "id": 2,
+          "name": "Xiaomi Fen",
+          "price": 904000,
+          "image": "../images/maintenance/xiaomi-fen.png"
+        },
+        {
+          "id": 3,
+          "name": "HK8 Fen",
+          "price": 990000,
+          "image": "../images/maintenance/hk-fen.png"
+        },
+        {
+          "id": 4,
+          "name": "Dyson Fen",
+          "price": 8999000,
+          "image": "../images/maintenance/dyson-fen.png"
+        }
+      ]
+    },
+
+    {
+      "id": "smart-devices",
+      "title": "Aqlli uy jihozlari",
+      "products": [
+        {
+          "id": 1,
+          "name": "Xiaomi Camera",
+          "price": 4000000,
+          "image": "../images/smart-devices/camera.png"
+        },
+        {
+          "id": 2,
+          "name": "Aqlli eshik qulf",
+          "price": 2999000,
+          "image": "../images/smart-devices/qulf.png"
+        },
+        {
+          "id": 3,
+          "name": "Signalizatsiya",
+          "price": 800000,
+          "image": "../images/smart-devices/signalizatsiya.png"
+        },
+        {
+          "id": 4,
+          "name": "Wi-Fi router",
+          "price": 999000,
+          "image": "../images/smart-devices/router.png"
+        }
+      ]
+    }
+  
+]

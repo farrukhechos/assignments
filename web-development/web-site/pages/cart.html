@@ -4,15 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product | Details</title>
-    <link rel="stylesheet" href="../css/detail.css">
-    <link rel="stylesheet" href="../css/navbar.css">
-    <link rel="stylesheet" href="../css/footer.css">
+    <title>Cart | Page</title>
     <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/section.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/cart.css">
 </head>
 
 <body>
     <header class="container">
+        <!-- navbar -->
         <nav class="navbar">
             <div class="navbar-head">
                 <div>
@@ -32,6 +34,7 @@
             </div>
             <div class="icon-header">
                 <div class="icon">
+
                     <img src="..//images/icons/bag.png" alt="">
                     <a href="./cart.html">
                         <p class="icon-title">Savat</p>
@@ -52,41 +55,31 @@
             </div>
         </nav>
         <!-- section -->
-        <div class="detail-container">
+        <div class="section cart-section">
 
-            <!-- LEFT -->
-            <!-- LEFT -->
-            <div class="detail-left">
-                <h1 class="product-title" id="detailTitle"></h1>
+            <div class="cart-wrapper">
 
-                <div class="product-image">
-                    <img id="detailImage" src="" alt="">
+                <!-- LEFT -->
+                <div class="cart-items" id="cart-items">
+                    <!-- JS orqali to‘ldiriladi -->
                 </div>
-            </div>
 
-            <!-- CENTER -->
-            <div class="detail-center">
-                <h2 class="section-title">Mahsulot haqida</h2>
+                <!-- RIGHT -->
+                <div class="cart-summary">
+                    <h3>Buyurtma xulosasi</h3>
 
-                <div class="product-info">
-                    <div class="info-row">
-                        <span class="label">Nomi:</span>
-                        <span class="value" id="detailName"></span>
+                    <div class="summary-row">
+                        <span>Jami:</span>
+                        <span id="total-price">0 so'm</span>
                     </div>
+
+                    <button class="checkout-btn">Buyurtma berish</button>
                 </div>
+
             </div>
-
-            <!-- RIGHT -->
-            <div class="detail-right">
-                <h3 class="price-title">Mahsulot narxi</h3>
-                <p class="price" id="detailPrice"></p>
-
-                <button class="buy-btn">Sotib olish</button>
-                <button class="cart-btn" id="addToCartBtn">Savatga qo'shish</button>
-            </div>
-
 
         </div>
+
 
     </header>
     <!-- footer -->
@@ -115,8 +108,7 @@
             </div>
         </div>
     </footer>
-
 </body>
-<script src="../javascript/main.js"></script>
+<script src="../javascript/cart.js"></script>
 
 </html>

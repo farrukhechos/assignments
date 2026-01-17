@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/section.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/sign.css">
 </head>
 
 <body>
@@ -54,47 +55,49 @@
                 </div>
             </nav>
             <!-- section -->
+            <div class="section auth-section">
 
-            <div class="section">
-                <!-- categories -->
-                <div class="categories-section">
-                    <div class="categories-wrapper">
+                <div class="auth-card">
+                    <h2>Ro'yxatdan o'tish</h2>
+                    <p class="auth-subtitle">Hisob yarating va imkoniyatlardan foydalaning</p>
 
-                        <a href="#" class="category-card" data-category="kitchen">
-                            <img src="../images/kitchen/blender.png" alt="Oshxona jihozlari">
-                            <span>Oshxona jihozlari</span>
-                        </a>
+                    <form class="auth-form">
+                        <div class="form-group">
+                            <label>Ism</label>
+                            <input type="text" placeholder="Ismingizni kiriting" required>
+                        </div>
 
-                        <a href="#" class="category-card" data-category="cleaner">
-                            <img src="../images/cleaner/plisos.png" alt="Tozalash texnikasi">
-                            <span>Tozalash texnikasi</span>
-                        </a>
+                        <div class="form-group">
+                            <label>Familiya</label>
+                            <input type="text" placeholder="Familiyangizni kiriting" required>
+                        </div>
 
-                        <a href="#" class="category-card" data-category="heater">
-                            <img src="../images/heater/elektr-heater.png" alt="Isitish va sovutish">
-                            <span>Isitish & Sovutish</span>
-                        </a>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" placeholder="example@gmail.com" required>
+                        </div>
 
-                        <a href="#" class="category-card" data-category="maintenance">
-                            <img src="../images/maintenance/fen.png" alt="Shaxsiy parvarish">
-                            <span>Shaxsiy parvarish</span>
-                        </a>
+                        <div class="form-group">
+                            <label>Parol</label>
+                            <input type="password" placeholder="Kamida 8 ta belgi" required>
+                        </div>
 
-                        <a href="#" class="category-card" data-category="smart-devices">
-                            <img src="../images/smart-devices/camera.png" alt="Aqlli uy">
-                            <span>Aqlli uy</span>
-                        </a>
+                        <div class="form-group">
+                            <label>Parolni tasdiqlash</label>
+                            <input type="password" placeholder="Parolni qayta kiriting" required>
+                        </div>
 
+                        <button type="submit" class="auth-btn">Ro'yxatdan o'tish</button>
 
-                    </div>
+                        <p class="auth-footer">
+                            Hisobingiz bormi?
+                            <a href="#">Kirish</a>
+                        </p>
+                    </form>
                 </div>
-                <button id="showAll">Barchasi</button>
 
-
-                <!-- products -->
-
-                <div id="products"></div>
             </div>
+
         </header>
         <!-- footer -->
         <footer class="footer">

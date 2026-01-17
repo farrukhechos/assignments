@@ -1,0 +1,134 @@
+.packages-section {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.packages-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.packages-subtitle {
+  color: #666;
+  margin-bottom: 50px;
+}
+
+/* GRID */
+.packages-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+/* CARD */
+.package-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 30px 25px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s;
+}
+
+.package-card:hover {
+  transform: translateY(-8px);
+}
+
+/* BADGE */
+.package-badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #6c63ff;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+
+/* TEXT */
+.package-card h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.package-desc {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* LIST */
+.package-card ul {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.package-card li {
+  margin-bottom: 10px;
+  padding-left: 18px;
+  position: relative;
+}
+
+.package-card li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #6c63ff;
+}
+
+/* BUTTON */
+.package-btn {
+  margin-top: auto;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  background: #eee;
+}
+
+.package-btn.primary {
+  background: #6c63ff;
+  color: #fff;
+}
+
+.package-btn.outline {
+  background: transparent;
+  border: 2px solid #6c63ff;
+  color: #6c63ff;
+}
+
+.package-btn:hover {
+  opacity: 0.9;
+}
+
+/* RECOMMENDED */
+.recommended {
+  border: 2px solid #6c63ff;
+  transform: scale(1.05);
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  .packages-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .packages-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .recommended {
+    transform: none;
+  }
+}
